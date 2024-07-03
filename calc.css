@@ -8,7 +8,7 @@ body{
 
 table.calculadora{
     border-collapse: collapse;
-    width: 200px;
+    width: auto;
     background-color: #333;
     border: 2px solid #333;
     border-radius: 10px;
@@ -18,10 +18,16 @@ table.calculadora{
 table.calculadora th{
     padding: 10px;
     border-bottom: 2xp solid #444;
+    display: -webkit-inline-box;
+}
+
+.opcoes{
+    display: flex;
+    justify-content: space-between;
 }
 
 table.calculadora input {
-    width: 100%;
+    
     padding: 15px;
     font-size: 20px;
     border:none;
@@ -31,11 +37,21 @@ table.calculadora input {
     border-radius: 5px;
 }
 
+.botao.clicado   {
+    background-color: #7856ffd6;
+}
+
+
 table.calculadora input.nua{
     border-bottom: 2px solid #555;
+    width: 100%;
 }
 
 table.calculadora input.nuB{
+    border-top: 2px solid #555;
+}
+
+table.calculadora input.nuC{
     border-top: 2px solid #555;
 }
 

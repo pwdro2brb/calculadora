@@ -8,13 +8,40 @@
     <title>calculadora multifuncional</title>
 </head>
 <body>
+
     <table class="calculadora">
         <tr>
-           <th> <input type="num" class="nuA"> </th>
-           </tr>
-            <tr>
-            <th> <input type="text" class="nuB" > </th>
+           <th> <input type="number" class="nuA"> </th>
+        </tr>
+
+        <tr class="opcoes">
+
+            <th> 
+                <input type="button" id="adicao" class="botao" value="+"> 
+            </th>
+                
+            <th>
+                <input type="button" id="subtracao" class="botao" value="-">
+            </th>
+
+            <th>
+                <input type="button" id="multiplicacao" class="botao" value="*" >
+            </th>
+
+            <th>
+                <input type="button" id="divisao" class="botao" value="/">
+            </th>  
+
+        </tr>
+
+        <tr>
+            <th> <input type="number" class="nuB" > </th>
+        </tr>
+
+        <tr>
+            <th> <input type="number" class="nuC" readonly> </th>
         </tr>
     </table>
+<script src="script.js"></script>
 </body>
 </html>
