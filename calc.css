@@ -1,3 +1,44 @@
-.nuB{
-    pointer-events: none;
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+table.calculadora{
+    border-collapse: collapse;
+    width: 200px;
+    background-color: #333;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+table.calculadora th{
+    padding: 10px;
+    border-bottom: 2xp solid #444;
+}
+
+table.calculadora input {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    border:none;
+    background-color: #222;
+    color: #fff;
+    text-align: right;
+    border-radius: 5px;
+}
+
+table.calculadora input.nua{
+    border-bottom: 2px solid #555;
+}
+
+table.calculadora input.nuB{
+    border-top: 2px solid #555;
+}
+
+table.calculadora input:focus{
+    outline: none;
 }
